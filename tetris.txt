@@ -1,0 +1,10 @@
+clear
+reset
+
+as my_ninth_c_program user lc4_stdio my_ninth_c_program  # Links 3 .ASM files into 1 .OBJ
+ld my_ninth_c_program				 	 # loads the linked .OBJ
+
+as os os	# don't forget the OS!
+ld os
+
+break set END
